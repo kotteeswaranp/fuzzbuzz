@@ -2,6 +2,9 @@ var output = [];
 var count = 1;
 
 function fizzbuzz(){
+
+while(count<=100){
+        
 if(count % 3 === 0 && count % 5 === 0){
     output.push("fizzBuzz")
 }
@@ -18,3 +21,5 @@ count++;
 
     console.log(output);
 }
+}
+
